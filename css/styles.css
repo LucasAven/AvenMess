@@ -440,7 +440,9 @@ a {
   -webkit-align-items: center;
   align-items: center;
   max-width: 450px;
-  min-width: 392px;
+  /* min-width: 392px; */
+  min-width: 300px;
+  max-height: 450px;
 }
 
 .swiper-button-prev {
