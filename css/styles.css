@@ -1056,11 +1056,11 @@ footer {
   }
 
   .swiper-button-prev {
-    left: 5vw !important;
+    left: 2.5vw !important;
   }
 
   .swiper-button-next {
-    right: 5vw !important;
+    right: 2.5vw !important;
   }
 
   .responsive__cards-container-left,
