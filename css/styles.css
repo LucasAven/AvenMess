@@ -433,11 +433,9 @@ a {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  -webkit-align-items: center;
   align-items: center;
   max-width: 450px;
   /* min-width: 392px; */
@@ -1066,7 +1064,6 @@ footer {
   .responsive__cards-container-left,
   .responsive__img-container,
   .responsive__cards-container-right {
-    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1100,7 +1097,6 @@ footer {
   .responsive__cards-container-left,
   .responsive__img-container,
   .responsive__cards-container-right {
-    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1185,7 +1181,6 @@ footer {
   .responsive__cards-container-left,
   .responsive__img-container,
   .responsive__cards-container-right {
-    -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
