@@ -2,6 +2,7 @@ const top_bar = document.getElementById("top-bar");
 const nav_bar = document.querySelector(".nav-bar");
 const nav_links = document.querySelector(".nav-links");
 const btn = document.querySelector(".menu-btn");
+const arrow = document.querySelector(".top-btn");
 
 function applyScrollRevealEffectOpposites(claseLeft, claseRight) {
   ScrollReveal().reveal(claseLeft, {
@@ -62,5 +63,12 @@ function hideTopBarOnScrollDown(ev) {
     top_bar.classList.add("fixed-top");
     nav_bar.classList.remove("fixed-top-0");
   }
+  if (window.pageYOffset >= 800) {
+    arrow.classList.add("arrow--scrolled");
+  } else {
+    arrow.classList.remove("arrow--scrolled");
+  }
 }
 window.onscroll = hideTopBarOnScrollDown;
+
+
