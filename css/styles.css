@@ -416,6 +416,19 @@ a {
   }
 }
 
+/* Como obtener pagina */
+.howto-section {
+  background: var(--top-bott-bars-bg-col);
+}
+
+.howto-section__container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.howto-section__container img {
+  max-width: 100%;
+}
+
 /* Servicios */
 .services-section {
   position: relative;
