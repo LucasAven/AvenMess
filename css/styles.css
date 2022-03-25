@@ -454,6 +454,10 @@ a {
   flex-direction: column;
 }
 
+.howto__step h3 {
+  margin-bottom: 0.5rem;
+}
+
 .howto__step h3,
 .howto__step i {
   color: var(--brand-col);
