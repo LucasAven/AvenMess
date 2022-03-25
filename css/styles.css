@@ -424,11 +424,38 @@ a {
 .howto-section__container {
   max-width: 1000px;
   margin: 0 auto;
-}
-.howto-section__container img {
-  max-width: 100%;
+  color: #fff;
 }
 
+.howto__text-container {
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.howto__text-container span {
+  margin-top: 0.5em;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.howto__steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.howto__step {
+  display: flex;
+  flex-direction: column;
+}
+
+.howto__step h3,
+.howto__step i {
+  color: var(--brand-col);
+}
+.howto__step i {
+  margin-left: 0.5em;
+}
 /* Servicios */
 .services-section {
   position: relative;
