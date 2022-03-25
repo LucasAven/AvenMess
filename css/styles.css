@@ -444,6 +444,11 @@ a {
   flex-direction: column;
   gap: 1.5rem;
 }
+
+.howto__steps-container h3 {
+  letter-spacing: 2px;
+}
+
 .howto__step {
   display: flex;
   flex-direction: column;
