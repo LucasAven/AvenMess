@@ -102,8 +102,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
     />
 
@@ -142,7 +146,7 @@
     <nav class="nav-bar fixed-top" id="nav-bar">
       <div class="nav-responsive">
         <img
-          src="./images/logo_sin_fondo_AvenMess_NAV.webp"
+          src="./images/Logo_Avenmess.svg"
           alt="AvenMess Logo"
           loading="lazy"
         />
@@ -169,7 +173,7 @@
       </div>
     </nav>
 
-    <header class="header-container">
+    <header class="header-container -not-main">
       <div class="header__title-container">
         <h1 class="header__title">Posicionamiento SEO</h1>
       </div>
@@ -285,9 +289,7 @@
                   <li>Optimizacón de imágenes.</li>
                 </ul>
               </div>
-              <button class="plan__contact-button" id="consulta-btn">
-                CONSULTAR
-              </button>
+              <button id="consulta-btn">CONSULTAR</button>
             </div>
           </div>
           <div class="plan reversed-row">
@@ -319,9 +321,7 @@
                   </li>
                 </ul>
               </div>
-              <button class="plan__contact-button" id="consulta-btn">
-                CONSULTAR
-              </button>
+              <button id="consulta-btn">CONSULTAR</button>
             </div>
           </div>
           <div class="plan">
@@ -355,9 +355,7 @@
                   <li>Aplicación de Schema tags.</li>
                 </ul>
               </div>
-              <button class="plan__contact-button" id="consulta-btn">
-                CONSULTAR
-              </button>
+              <button id="consulta-btn">CONSULTAR</button>
             </div>
           </div>
         </div>
@@ -365,83 +363,87 @@
     </main>
 
     <footer class="espaciador">
-      <div class="footer__contact">
-        <img
-          class="footer__contact-img"
-          src="./images/logo_sin_fondo_AvenMess.svg"
-          alt=""
-          loading="lazy"
-        />
-        <div>
-          <address class="contact__address white-text-predetermined">
-            <i class="fas fa-phone footer__icon footer__icon-responsive"></i
-            ><a class="contact-a" href="tel:+5491135736770"
-              >+54 9 11 3573-6770</a
-            >
-          </address>
-          <address class="contact__address white-text-predetermined">
-            <i class="fas fa-envelope footer__icon footer__icon-responsive"></i
-            ><a class="contact-a" href="mailto:avenmess.web.dev@gmail.com"
-              >avenmess.web.dev@gmail.com</a
-            >
-          </address>
-        </div>
-      </div>
-      <div class="footer__data-container text-center white-text-predetermined">
-        <div class="footer__data">
-          <h4 class="footer__titles">Horarios</h4>
-          <div class="flex-column">
-            <p class="footer-simple-text footer__icon-center">
-              <i class="fas fa-clock footer__icon footer__icon-responsive"></i>
-              Lunes a Viernes de 9 a 18hs
-            </p>
-            <address
-              class="footer-simple-text white-text-predetermined footer__icon-center"
-            >
+      <div class="footer-container">
+        <div class="footer__contact">
+          <img
+            class="footer__contact-img"
+            src="./images/Logo_Sin_Slogan.svg"
+            alt=""
+            loading="lazy"
+          />
+          <div>
+            <address class="contact__address white-text-predetermined">
+              <i class="fas fa-phone footer__icon footer__icon-responsive"></i
+              ><a class="contact-a" href="tel:+5491135736770"
+                >+54 9 11 3573-6770</a
+              >
+            </address>
+            <address class="contact__address white-text-predetermined">
               <i
-                class="fas fa-map-marker-alt footer__icon footer__icon-responsive"
-              ></i>
-              Florencio Varela, Buenos Aires, Argentina
+                class="fas fa-envelope footer__icon footer__icon-responsive"
+              ></i
+              ><a class="contact-a" href="mailto:avenmess.web.dev@gmail.com"
+                >avenmess.web.dev@gmail.com</a
+              >
             </address>
           </div>
         </div>
-        <div class="footer__separator"></div>
-        <div class="footer__data">
-          <h4 class="footer__titles">Seguinos!</h4>
-          <div>
-            <a href="https://www.instagram.com/avenmess/" target="_blank"
-              ><i class="fab fa-instagram footer__icon"></i
-            ></a>
-            <a href="https://twitter.com/AvenMess" target="_blank"
-              ><i class="fab fa-twitter footer__icon"></i
-            ></a>
+        <div
+          class="footer__data-container text-center white-text-predetermined"
+        >
+          <div class="footer__data">
+            <h4 class="footer__titles">Horarios</h4>
+            <div class="flex-column">
+              <p class="footer-simple-text footer__icon-center">
+                <i
+                  class="fas fa-clock footer__icon footer__icon-responsive"
+                ></i>
+                Lunes a Viernes de 9 a 18hs
+              </p>
+              <address
+                class="footer-simple-text white-text-predetermined footer__icon-center"
+              >
+                <i
+                  class="fas fa-map-marker-alt footer__icon footer__icon-responsive"
+                ></i>
+                Florencio Varela, Buenos Aires, Argentina
+              </address>
+            </div>
           </div>
+          <div class="footer__separator"></div>
+          <div class="footer__data">
+            <h4 class="footer__titles">Seguinos!</h4>
+            <div>
+              <a href="https://www.instagram.com/avenmess/" target="_blank"
+                ><i class="fab fa-instagram footer__icon"></i
+              ></a>
+              <a href="https://twitter.com/AvenMess" target="_blank"
+                ><i class="fab fa-twitter footer__icon"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer__separator"></div>
+          <div class="footer__data">
+            <h4
+              class="footer__links__title white-text-predetermined footer__titles"
+            >
+              Enlaces
+            </h4>
+            <ul
+              class="footer__links__ul footer-simple-text white-text-predetermined"
+            >
+              <li><a class="contact-a" href="#servicios">Servicios</a></li>
+              <li>
+                <a class="contact-a" href="./posicionamiento-seo.html">SEO</a>
+              </li>
+              <li>
+                <a class="contact-a" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="contact-a" href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer__separator footer__separator-4"></div>
         </div>
-        <div class="footer__separator"></div>
-        <div class="footer__data">
-          <h4
-            class="footer__links__title white-text-predetermined footer__titles"
-          >
-            Enlaces
-          </h4>
-          <ul
-            class="footer__links__ul footer-simple-text white-text-predetermined"
-          >
-            <li>
-              <a class="contact-a" href="./index.html#servicios">Servicios</a>
-            </li>
-            <li>
-              <a class="contact-a" href="#top">SEO</a>
-            </li>
-            <li>
-              <a class="contact-a" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a class="contact-a" href="./index.html#contacto">Contacto</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__separator footer__separator-4"></div>
       </div>
     </footer>
 

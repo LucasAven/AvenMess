@@ -1,4 +1,6 @@
-const nav = document.querySelector(".nav-links");
+const top_bar = document.getElementById("top-bar");
+const nav_bar = document.querySelector(".nav-bar");
+const nav_links = document.querySelector(".nav-links");
 const btn = document.querySelector(".menu-btn");
 
 function applyScrollRevealEffectOpposites(claseLeft, claseRight) {
@@ -43,26 +45,22 @@ setTimeout(function () {
 }, 3000);
 
 function navBarToggle() {
-  if (nav.classList.contains("hide-nav-menu")) {
-    nav.classList.remove("hide-nav-menu");
+  if (nav_links.classList.contains("hide-nav-menu")) {
+    nav_links.classList.remove("hide-nav-menu");
     btn.classList.add("menu-btn-clicked");
   } else {
-    nav.classList.add("hide-nav-menu");
+    nav_links.classList.add("hide-nav-menu");
     btn.classList.remove("menu-btn-clicked");
   }
 }
 
 function hideTopBarOnScrollDown(ev) {
   if (window.pageYOffset >= 100) {
-    const bar = document.getElementById("top-bar");
-    const nav = document.querySelector(".nav-bar");
-    bar.classList.remove("fixed-top");
-    nav.classList.add("fixed-top-0");
+    top_bar.classList.remove("fixed-top");
+    nav_bar.classList.add("fixed-top-0");
   } else {
-    const bar = document.getElementById("top-bar");
-    const nav = document.querySelector(".nav-bar");
-    bar.classList.add("fixed-top");
-    nav.classList.remove("fixed-top-0");
+    top_bar.classList.add("fixed-top");
+    nav_bar.classList.remove("fixed-top-0");
   }
 }
 window.onscroll = hideTopBarOnScrollDown;

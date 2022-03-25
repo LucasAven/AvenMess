@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="500" zoomAndPan="magnify" viewBox="0 0 141.353 76.5" height="102" preserveAspectRatio="xMidYMid meet" version="1.0" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g>
+      <g id="id1"/>
+      <g id="id2"/>
+      <g id="id3"/>
+    </g>
+    <clipPath id="id4">
+      <path d="M 1.21875 0 L 77 0 L 77 76.003906 L 1.21875 76.003906 Z M 1.21875 0 " clip-rule="nonzero"/>
+    </clipPath>
+  </defs>
+  <g fill="rgb(100%, 100%, 100%)" fill-opacity="1">
+    <g transform="translate(186.101391, 63.378548)">
+      <g/>
+    </g>
+  </g>
+  <g fill="rgb(100%, 100%, 100%)" fill-opacity="1">
+    <g transform="translate(237.08532, 63.378548)">
+      <g/>
+    </g>
+  </g>
+  <g fill="rgb(100%, 100%, 100%)" fill-opacity="1">
+    <g transform="translate(249.239382, 63.378548)">
+      <g/>
+    </g>
+  </g>
+  <g clip-path="url(#id4)" style="" transform="matrix(1, 0, 0, 1.01094, 0, 0)">
+    <g fill="rgb(0%, 76.078796%, 100%)" fill-opacity="1">
+      <g transform="translate(77.115996, -0.0213071)">
+        <g>
+          <path d="M -46.671875 0 L -29.640625 0 L -0.140625 76.15625 L -17.328125 76.15625 L -38.515625 16.171875 L -59.40625 76.15625 L -75.875 76.15625 Z M -46.671875 0 "/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g fill="rgb(0%, 76.078796%, 100%)" fill-opacity="1" style="" transform="matrix(1, 0, 0, 0.971051, 0, 2.82217)">
+    <g transform="translate(117.665872, 75.943605)">
+      <g>
+        <path d="M 23.703125 0 L 10.375 0 L 10.375 -78.984375 L 23.703125 -78.984375 Z M 23.703125 0 "/>
+      </g>
+    </g>
+  </g>
+  <g fill="rgb(0%, 76.078796%, 100%)" fill-opacity="1" style="" transform="matrix(1, 0, 0, 0.971051, 0, 2.82217)">
+    <g transform="translate(62.581861, 75.943605)">
+      <g>
+        <path d="M 45.59375 0 L 31.828125 0 L 0.34375 -78.984375 L 14.671875 -78.984375 L 39.046875 -14.78125 L 63.640625 -78.984375 L 77.53125 -78.984375 Z M 45.59375 0 "/>
+      </g>
+    </g>
+  </g>
+</svg>
